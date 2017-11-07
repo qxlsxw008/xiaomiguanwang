@@ -740,7 +740,7 @@
 .banner-btn:hover{
 	background-color: rgba(0, 0, 0, 0.6)
 }
-.lbtn{
+.banner .lbtn{
 	left: 234px;
 
 }
@@ -748,16 +748,17 @@
 	right: 0;
 
 }
-.banner-pages{
-	width: 140px;
+.banner .banner-pages{
+	width: 140px!important;
 	height: 10px;/* 
 	background-color: red; */
 	position: absolute;
 	right: 30px;
-	bottom: 10px;
+	bottom: 10px!important;
 	z-index: 999;
+	left: auto!important;
 }
-.banner-pages li{
+.banner-pages .swiper-pagination-bullet{
 	width: 6px;
 	height: 6px;
 	background-color: #666;
